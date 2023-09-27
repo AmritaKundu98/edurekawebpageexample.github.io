@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CDN for CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--CDN for JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        #top-bar{
+            
+            height: 65px;
+            
+            background-color: #fff;
+        }
+        #edureka-logo{
+             
+            height: 35px;
+            margin-left: -77px
+        }
+        #search-area{
+            width: 17em;
+    border-radius: 13px;
+    border-style: hidden;
+    height: 32px;
+    padding-left: 34px;
+    background-color: #f4f5f7;
+    font-size: 14px;
+    margin-left: 2em;
+        }
+        button{
+            width: 5em;
+            margin-left: -6px;
+            height: 32px;
+            border-radius: 3px;
+            border-style: hidden;
+        }
+       
+      ul li a{
+        color: #fff;
+        margin-top: 8px;
+       }
+       #img1{
+        height: 28em;
+        width: 112%;
+        
+       }
+       #contact-details{
+        background-color: #192f60;
+        height: 40px;
+       }
+       .bi-telephone{
+        color: #fff;
+        padding-right: 4px;
+        font-size: 16px;
+        
+       }
+       #flag{
+        height: 17px;
+    margin-top: 13px;
+    margin-left: 14px;
+       }
+       #contact-purpose{
+        margin-top: 8px;
+        margin-left: 14px;
+        color: #fff;
+        
+    
+       }
+       .bi-caret-down-fill{
+
+        margin-top: 5px;
+       
+        font-size: 11px;
+        background:none;
+       }
+       .white-color{
+        color: #fff;
+       }
+
+       .contactus_contact_us_container__zIoNK {
+    position: fixed;
+    top: 200px;
+    background-color: #fff;
+    z-index: 500;
+    right: -48px;
+    color: #0052cc;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 10px 15px 15px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+#colla-with-top{
+  margin-top: 10px;
+  font-size: 24px;
+    font-weight: 500;
+    color: #192f60;
+    text-align: center;
+}
+
+
+.collaboration_comp_learner_job__1njnx {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 22px auto;
+    display: flex;
+    margin-left: -6em;
+}
+#company-logo{
+  
+  height: 27px;
+    width: 99px;
+    padding-left: 25px; 
+}
+#company-div1{
+  margin-left: 25em;
+}
+#company-logo2{
+  display: flex;
+    /* margin-right: 55px; */
+    margin-top: 44px;
+    height: 30px;
+    width: 104px;
+    padding-left: 37px;
+    
+}
+#company-div2{
+  margin-left: 25em;
+}
+.collaboration_comp_learner_job2__1njnx {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 18px auto;
+    display: flex;
+}
+#catagory{
+  box-shadow: 0px 0px 1px 1px #0052cc; 
+  border-radius: 2px;
+  margin-top: 0px;
+ 
+    width: 8em;
+    text-align: center;
+    margin-left: 26px;
+    color: #0052cc;
+    font-weight: bold;
+  
+}
+#catagory:hover{
+  background-color: #0052cc;
+  text-decoration: none;
+  color: #fff;
+ }
+ #top-right-banner{
+  width: 21%;
+    margin-left: 35em;
+    padding-top: 8px;
+ }
+ .banner_first_text{
+  color: #dfdb12;
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+.has-search .form-control-feedback {
+    position: absolute;
+    font-weight: bold;
+    width: 2.375rem;
+    padding-left: 2.5rem;
+    line-height: 2.05rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.gray-color{
+  color:#bdc2cf;
+}
+.bi-bell-fill{
+     border-radius: 45px;
+    height: 35px;
+    width: 34px;
+    font-size: 23px;
+    margin: 9px;
+}
+#user{
+  
+    border-radius: 39px;
+    height: 35px;
+    width: 142px;
+    font-size: 23px;
+    margin: 9px;
+}
+.black-color{
+  color: black;
+}
+#user-pic{
+      /* margin-right: -82px; */
+      border-radius: 16px;
+    margin-bottom: 6px;
+    position: justify;
+    /* padding-block-end: 2px; */
+    margin-left: 102px;
+}
+#user-name{
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    padding-top: 4px;
+    padding-left: 17px;
+}
+#refer:hover{
+  background-color:  #f0f6ff!important;
+}
+footer{
+  background-color: #192f60;
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="container-fluid d-block d-flex "     id="contact-details">
+        <i  style="margin-left: -77px;    margin-left: 34px;
+        margin-top: 7px;"  class="bi bi-telephone-fill white-color"></i>
+        <p style="color: #fff;padding-left: 8px;margin-top: 7px;">New Course Enquery :</p>
+        <img id="flag" src="https://cdn.iconscout.com/icon/free/png-256/free-india-flag-country-nation-union-empire-32988.png?f=webp">
+
+    
+            <a id="contact-purpose">+91 89517 55408</a>
+            
+           
+
+
+             <!-- Button trigger modal -->
+<button type="button" class="bi bi-caret-down-fill white-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Call Edureka 24X7</b></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Edureka course counsellors and learner support agents are available 24X7 to help with your learning need.</p>
+          <div style="background: border-box;">
+            <p><b>For New Course Enquiry</b></p>
+            <img style="height: 10px;"src="https://cdn.iconscout.com/icon/free/png-256/free-india-flag-country-nation-union-empire-32988.png?f=webp">India:
+           <p><b>+91 89517 55408</b></p>
+          </div>
+          <div>
+            <p><b>For Support ( Already enrolled learners only)</b></p>
+            <img style="height: 10px;"src="https://cdn.iconscout.com/icon/free/png-256/free-india-flag-country-nation-union-empire-32988.png?f=webp">India:
+           <p><b>+91 89517 55400</b></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+<!--top-right-side-->
+    <div id="top-right-banner">
+   <a class="banner_first_text" >Mid Month Madness</a>
+    <a class="banner_first_text" >- Upto 30% Off</a>
+    <a class="banner_first_text">Grab Now</a>
+    </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg" id="top-bar" sy>
+    <div class="container ">
+
+        <a class="navbar-brand" href="#">
+            <img id="edureka-logo" src="https://www.edureka.co/img/Edureka_V_clp_logo.webp" alt="Edureka Logo">
+        </a>
+        <!--catagory-->
+        <div >
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+        <li class="nav-item dropdown mx-1">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+            id="catagory">Categories</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./frontend.html">Frontend Courses</a></li>
+                <li><a class="dropdown-item" href="./backend.html">Backend Courses</a></li>
+                <li><a class="dropdown-item" href="./database.html">Database Courses</a></li>
+            </ul>
+        </li>
+        </ul>
+      </div>
+        <!--search bar-->
+        
+            <div class="container-fluid" id="search-bar">
+                <div class="search-container">
+                    <form action="">
+                        <div class="row height d-flex justify-content-center align-items-center">
+                        <div class="search  form-group has-search">
+                        <span   class="bi bi-search form-control-feedback"></span>
+                      <input type="text"  placeholder="Search Courses" name="search" id="search-area">
+                    </div>
+                     <!-- <button type="submit" style="background-color: orange;color: aliceblue;"><i class="bi bi-search"></i></button>-->
+                    </div>
+                    </form>
+                  </div>
+            </div>
+        
+
+
+            
+            
+           <!-- Navbar Contents -->
+           <div style="color: aliceblue;margin-inline: -4em;margin-top: -2px;">
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                <li class="nav-item mx-1">
+                    <a class="nav-link active" href="./refer.html" style="color:#192f60!important;
+                    ;" id="refer">Refer</a>
+                </li>
+
+                <li class="nav-item mx-1">
+                    <a class="nav-link " data-bs-toggle="" href="#"style="color:#192f60!important;width:7em;
+                    " id="refer">My Courses</a>
+                 
+                </li>
+
+                <li class="nav-item dropdown mx-1">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" style="color:#192f60!important;
+                    ">Community</a>
+                    <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" href="#">Forum</a></li>
+                       <li><a class="dropdown-item" href="#">Blog</a></li>
+                    </ul>
+                </li>
+                <li>
+                  <button class="bi bi-bell-fill gray-color"></button>
+                </li>
+                <li class="nav-item mx-1">
+                 <!-- <button class="bi bi-person-fill black-color" id="user"></button>-->
+                 <button id="user" onclick="showactivity()">
+                  <p id="user-name">Amrita..</p>
+                  <img width="30" height="30" class="thumbnail-image" src="https://d1jnx9ba8s6j9r.cloudfront.net/img/userdefault_ico.png" alt="user pic" id="user-pic"></button>
+                  <!--  <a class="nav-link" href="./contact.html" style="color:#192f60!important;width:7em;
+                    ">Contact Us</a>-->
+                </li>
+            </ul>
+        </div>
+          
+
+    </div>
+
+</nav>
+<div class="contactus_contact_us_container__zIoNK"><div class="contactus_contact_us_btn__ZLFVn"><span class="contactus_cont_pho_ico__3yfil contactus_trin_trin__11U6q"><picture><img width="20" height="20" src="https://d1jnx9ba8s6j9r.cloudfront.net/img/mobile_r.webp" alt="img"></picture></span> <a href="./contactus.html">CONTACT US</a></div></div>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="https://d24vv731hdkcnd.cloudfront.net/carousel-v3-banner/1692121809-New-HomePage_Web_1680x410.jpg" class="d-block w-80" alt="..."  id="img1">
+          </div>
+    <!--      <div class="carousel-item" >
+            <img src="https://d24vv731hdkcnd.cloudfront.net/carousel-v3-…1692169439-New-Home-Page-web-Banner_1680x410_.jpg" class="d-block w-80" alt="..."  id="img1">
+          </div> -->
+          <div class="carousel-item" >
+            <img src="https://d24vv731hdkcnd.cloudfront.net/carousel-v3-banner/1689075094-DevOps-Banner_New_Web.jpg
+            " class="d-block w-80" alt="..."  id="img1">
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+
+
+<!--Java Script-->
+<script>
+    function show_conct_details(){
+        document.getElementById("show-details")
+    }
+
+    function showactivity(){
+      window.open("./piechart.html");
+    }
+</script>
+<div>
+<p id="colla-with-top">Collaboration with Top Universities & Companies</p>
+<div class="" id="company-div1">
+<ul class="collaboration_comp_learner_job__1njnx">
+  <li><img src="https://www.edureka.co/img/v3Purdue-Logo-small.webp" alt="image" id="company-logo"></li>
+  <li><img src="https://www.edureka.co/img/instv3ICT.webp" alt="image"id="company-logo"></li>
+  <li><img src="https://www.edureka.co/img/v3NewIbm.webp" alt="image"id="company-logo"></li>
+  <li><img  src="https://www.edureka.co/img/ms_home_new.png" alt="image"id="company-logo" ></li>
+  <li><img  src="https://www.edureka.co/img/goo_home_new.png" alt="image"id="company-logo"></li>
+  <li><img  src="https://www.edureka.co/img/fb_home_new.png" alt="image" id="company-logo"></li>
+  <li><img  src="https://www.edureka.co/img/v3Newwal.webp" alt="image" id="company-logo"></li>
+  </ul>
+ 
+  <ul class="collaboration_comp_learner_job2__1njnx">
+  <li><img width="22" height="20" src="https://www.edureka.co/img/v3NewDel.webp" alt="image" ></li>
+  <li><img  src="https://www.edureka.co/img/v3Newvis.webp" alt="image" id="company-logo"></li>
+  <li><img  width="auto" height="26" style="padding-left: 20px;"  src="https://www.edureka.co/img/v3Newhon.webp" alt="image"></li>
+  <li><img  src="https://www.edureka.co/img/citi_home_new.png" alt="image" id="company-logo"></li>
+  <li><img width="auto" height="26" style="padding-left: 20px;" src="https://www.edureka.co/img/v3Newfut.webp" alt="image" ></li>
+  </ul>
+
+  
+</div>
+</div>
+<!--Footer-->
+<footer class=" text-light text-center fs-5">
+  <p>
+      Author: Edureka <br>
+      <a href="mailto:trainer@edureka.co" class="text-light">trainer@edureka.co</a>
+  </p>
+  <div class="fs-2 mb-2">
+      <i class="bi bi-linkedin text-primary"></i>
+      <i class="bi bi-meta text-primary mx-3"></i>
+      <i class="bi bi-twitter text-info mx-3"></i>
+      <i class="bi bi-youtube text-danger mx-3"></i>
+  </div>
+</footer>
+
+</body>
+</html>

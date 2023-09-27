@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CDN for CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--CDN for JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<style>
+  h3{
+    font-family: myfont;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
+  }
+  @font-face {
+    font-family:myfont ;
+    src: url(./Lobster/Lobster_1.3.otf);
+  }
+  h1{
+    font-family:myfont ;
+    color: white;
+  }
+   #conct {
+      width: 99%;
+    /* height: 85%; */
+    margin-top: 6px;
+    background-color: blue;
+    background-image: linear-gradient(359deg,#0056b3, #007bff);
+    padding: 17px;
+    margin-left: 2px;
+    }
+    input{
+      padding: 3px;
+    }
+    textarea{
+      width: 12em;
+    }
+  
+
+
+label{
+  font-family: myfont;
+  color: gray;
+}
+button:hover{
+  color: white;
+}
+
+</style>
+
+
+
+</head>
+<body>
+  <center>
+<div id="conct">
+    <h1>Contact Us</h1>
+    <h3>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</h3>
+
+</div>
+
+</center>
+
+
+<!-- Contact Us -->
+<div class="container">
+  
+  <div class="row my-4 mx-3">
+      
+      <!-- HTML Form -->
+      <div class="col-6">
+          
+          <div class="form-floating">
+              <input type="text" class="form-control" id="floatingName" placeholder="Name">
+              <label for="floatingName">Name</label>
+          </div>
+
+          <div class="form-floating my-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+          </div>
+
+          <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a Message here" id="floatingTextarea2" style="height: 13em"></textarea>
+              <label for="floatingTextarea2">Message</label>
+          </div>
+
+          
+          <button type="submit" class="btn btn-outline-primary mt-3"><label>
+            Submit</label></button>
+          
+      </div>
+
+      <!-- Google map -->
+      <div class="col-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.856020997931!2d77.69179207373601!3d12.981059287335167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1209f2688e97%3A0x3d236f4d15d8351e!2sEdureka!5e0!3m2!1sen!2sin!4v1691940652332!5m2!1sen!2sin" 
+          width="600" height="432" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+  </div>
+</div>
+    
+  
+ </form>
+</body>
+</html>
